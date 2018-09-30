@@ -3,3 +3,5 @@ add_executable(mybin
 )
 
 target_link_libraries(mybin PRIVATE mylib)
+
+target_link_libraries(mybin PRIVATE memorylib)

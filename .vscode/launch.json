@@ -9,7 +9,7 @@
       "type": "cppdbg",
       "request": "launch",
       // "preLaunchTask": "build",
-      "program": "${workspaceFolder}/build/mybin/mybin",
+      "program": "${command:cmake.launchTargetPath}",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
