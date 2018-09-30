@@ -10,9 +10,9 @@ int main(int argc, char *argv[])
 {
     hello();
 
-    auto uniquqPtrTester = mt::createUniquePtrTester();
+    auto uniquePtrTester = mt::createUniquePtrTester();
 
-    uniquqPtrTester->test();
+    uniquePtrTester->test();
 
     return 0;
 }

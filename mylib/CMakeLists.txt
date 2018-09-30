@@ -5,6 +5,8 @@ add_library(mylib SHARED
   src/impl/mylib_impl.h
 )
 
+set_property(TARGET mylib PROPERTY CXX_STANDARD 17)
+
 target_include_directories(mylib
   PRIVATE src
   PUBLIC include
